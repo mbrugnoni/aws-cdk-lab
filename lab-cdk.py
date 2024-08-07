@@ -1,4 +1,9 @@
 from constructs import Construct
+from aws_cdk import (
+    App,
+    Stack,
+    aws_ec2 as ec2,
+)
 
 class VPCStack(Stack):
 
